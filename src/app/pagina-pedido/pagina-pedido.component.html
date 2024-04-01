@@ -1,0 +1,12 @@
+<div class="pagina-pedido">
+    
+    <div *ngFor="let pedido of pedidos">
+      <p>Pedido #{{ pedido.numero }}</p>
+      <p>CPF do Cliente: {{ pedido.cpfCliente }}</p>
+      <p>Código do Produto: {{ pedido.codigoProduto }}</p>
+      <p>Data do Pedido: {{ pedido.dataPedido }}</p>
+      <p>Quantidade: {{ pedido.quantidade }}</p>
+    </div>
+    <app-cadastro-pedido></app-cadastro-pedido>
+  </div>
+  
