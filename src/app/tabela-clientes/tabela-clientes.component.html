@@ -1,0 +1,15 @@
+<div class="tabela-clientes">
+    <h2>Lista de Clientes</h2>
+    <table>
+      <tr>
+        <th>CPF</th>
+        <th>Nome</th>
+        <th>E-mail</th>
+      </tr>
+      <tr *ngFor="let cliente of clientes">
+        <td>{{ cliente.cpf }}</td>
+        <td>{{ cliente.nome }}</td>
+        <td>{{ cliente.email }}</td>
+      </tr>
+    </table>
+  </div>

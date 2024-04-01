@@ -1,0 +1,31 @@
+/* cadastro-produto.component.css */
+.cadastro-produto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .cadastro-produto input[type="text"],
+  .cadastro-produto input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .cadastro-produto button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .cadastro-produto button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,31 @@
+/* cadastro-cliente.component.css */
+.cadastro-cliente {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .cadastro-cliente input[type="text"],
+  .cadastro-cliente input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .cadastro-cliente button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .cadastro-cliente button:hover {
+    background-color: purple;
+  }

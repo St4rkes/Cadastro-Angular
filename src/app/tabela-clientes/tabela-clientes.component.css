@@ -1,0 +1,25 @@
+/* tabela-clientes.component.css */
+.tabela-clientes table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 10px;
+  }
+
+  .tabela-clientes th,
+  .tabela-clientes td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+
+  .tabela-clientes th {
+    background-color: #f2f2f2;
+  }
+
+  .tabela-clientes tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .tabela-clientes tr:hover {
+    background-color: #e9e9e9;
+  }
